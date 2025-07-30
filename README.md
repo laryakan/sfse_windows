@@ -17,4 +17,6 @@ choco install cmake --version=3.30.8 --installargs 'ADD_CMAKE_TO_PATH=System'
 choco install visualstudio2022buildtools --params "--add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.CMake.Project"
 choco install git
 ```
-After that, **run.bat** should work properly
+After that, **run.bat** should work properly IF Execution Policy is set to Unrestricted (or AllSigned eventually)
+
+You may still need to unlock the game files (or maybe not, since the Creations Update has moved a lot of game files somewhere they are reachable)
